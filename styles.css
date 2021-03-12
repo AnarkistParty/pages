@@ -1,0 +1,41 @@
+#title{
+	font-weight:bold;
+}
+#blocs{
+	margin-top:10px;
+	max-width:500px;		
+	
+}
+.bloc-wrapper{
+	overflow: hidden;
+}
+.blocs-titre{
+	font-weight:bold;
+}
+.blocs{
+	border-style: inset;
+	max-width:40%;
+}
+.column-left{
+	float:left; /* add this */	
+}
+.column-right{
+	overflow: hidden;
+	margin-left:42%;
+}
+
+label {
+        display: inline-block;
+        width: 85px;
+        color: #777777;
+      }
+input {
+        padding: 5px 10px;
+		width:30px;
+		display: inline-block;
+  }
+.result{
+      display: inline-block;
+  }
+ 
+
