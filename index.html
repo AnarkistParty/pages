@@ -14,7 +14,12 @@
 
 <body>
 	<div id="title" class="page-title">Pour vivre ensemble, faisons un pas !</div>
+		<div id="header">
+			<label for="rigoler">Nombre d'élèves</label>
+			<input id="nb" name="nb" type="number"/>
+		</div>
 		<div id="blocs">
+			
 			<div class="bloc-wrapper">
 				<div id="violence" class="blocs column-left">
 					<div id="violence-titre" class="blocs-titre">
@@ -140,7 +145,7 @@
 						</div>
 						<div>
 							<label for="respecter">Bagarres</label>
-							<input id="18" name="respecter" type="number"/>
+							<input id="input18" name="respecter" type="number"/>
 							<div class="result" id="result18"></div>
 						</div>
 						<div>
@@ -196,8 +201,119 @@
 		</div>
 		
 	</div>
+	<div id="tableau">
+		<div class="divTable">
+			<div class="divTableBody">
+				<div class="divTableRow">
+					<div class="divTableCell">&nbsp;</div>
+					<div class="divTableCell">&nbsp;Auteur</div>
+					<div class="divTableCell">&nbsp;Victime</div>
+					<div class="divTableCell">T&eacute;moin&nbsp;</div>
+				</div>
+				<div class="divTableRow">
+					<div class="divTableCell">&nbsp;Bagarre</div>
+					<div class="divTableCell"><input id="input27" type="number"/><div class="result" id="result27"></div></div>
+					<div class="divTableCell"><input id="input28" type="number"/><div class="result" id="result28"></div></div>
+					<div class="divTableCell"><input id="input29" type="number"/><div class="result" id="result29"></div></div>
+				</div>
+				<div class="divTableRow">
+					<div class="divTableCell">&nbsp;Insulte</div>
+					<div class="divTableCell"><input id="input30" type="number"/><div class="result" id="result30"></div></div>
+					<div class="divTableCell"><input id="input31" type="number"/><div class="result" id="result31"></div></div>
+					<div class="divTableCell"><input id="input32" type="number"/><div class="result" id="result32"></div></div>
+				</div>
+				<div class="divTableRow">
+					<div class="divTableCell">&nbsp;Surnom</div>
+					<div class="divTableCell"><input id="input33" type="number"/><div class="result" id="result33"></div></div>
+					<div class="divTableCell"><input id="input34" type="number"/><div class="result" id="result34"></div></div>
+					<div class="divTableCell"><input id="input35" type="number"/><div class="result" id="result35"></div></div>
+				</div>
+				<div class="divTableRow">
+					<div class="divTableCell">&nbsp;Isoler</div>
+					<div class="divTableCell"><input id="input36" type="number"/><div class="result" id="result36"></div></div>
+					<div class="divTableCell"><input id="input37" type="number"/><div class="result" id="result37"></div></div>
+					<div class="divTableCell"><input id="input38" type="number"/><div class="result" id="result38"></div></div>
+				</div>
+				<div class="divTableRow">
+					<div class="divTableCell">&nbsp;Racket</div>
+					<div class="divTableCell"><input id="input39" type="number"/><div class="result" id="result39"></div></div>
+					<div class="divTableCell"><input id="input40" type="number"/><div class="result" id="result40"></div></div>
+					<div class="divTableCell"><input id="input41" type="number"/><div class="result" id="result41"></div></div>
+				</div>
+				<div class="divTableRow">
+					<div class="divTableCell">&nbsp;Sexuelle</div>
+					<div class="divTableCell"><input id="input42" type="number"/><div class="result" id="result42"></div></div>
+					<div class="divTableCell"><input id="input43" type="number"/><div class="result" id="result43"></div></div>
+					<div class="divTableCell"><input id="input44" type="number"/><div class="result" id="result44"></div></div>
+				</div>
+				<div class="divTableRow">
+					<div class="divTableCell">&nbsp;M/familiale</div>
+					<div class="divTableCell"><input id="input45" type="number"/><div class="result" id="result45"></div></div>
+					<div class="divTableCell"><input id="input46" type="number"/><div class="result" id="result46"></div></div>
+					<div class="divTableCell"><input id="input47" type="number"/><div class="result" id="result47"></div></div>
+				</div>
+				<div class="divTableRow">
+					<div class="divTableCell">&nbsp;Autres</div>
+					<div class="divTableCell"><input id="input48" type="number"/><div class="result" id="result48"></div></div>
+					<div class="divTableCell"><input id="input49" type="number"/><div class="result" id="result49"></div></div>
+					<div class="divTableCell"><input id="input50" type="number"/><div class="result" id="result50"></div></div>
+				</div>
+				<div class="divTableRow">
+					<div class="divTableCell">&nbsp;Autres</div>
+					<div class="divTableCell"><input id="input51" type="number"/><div class="result" id="result51"></div></div>
+					<div class="divTableCell"><input id="input52" type="number"/><div class="result" id="result52"></div></div>
+					<div class="divTableCell"><input id="input53" type="number"/><div class="result" id="result53"></div></div>
+				</div>
+				<div class="divTableRow">
+					<div class="divTableCell">&nbsp;Autres</div>
+					<div class="divTableCell"><input id="input54" type="number"/><div class="result" id="result54"></div></div>
+					<div class="divTableCell"><input id="input55" type="number"/><div class="result" id="result55"></div></div>
+					<div class="divTableCell"><input id="input56" type="number"/><div class="result" id="result56"></div></div>
+				</div>
+
+			</div>
+		</div>
+		
+	</div>
+	<div id="journee">
+	<div class="blocs-titre">Journée</div>
+		<div>
+			<label for="tb">Très bien</label>
+			<input id="input57" name="tb" type="number"/>
+			<div class="result" id="result57"></div>
+		</div>
+		<div>
+			<label for="b">Bien</label>
+			<input id="input58" name="b" type="number"/>
+			<div class="result" id="result58"></div>
+		</div>
+		<div>
+			<label for="m">Moyen</label>
+			<input id="input59" name="m" type="number"/>
+			<div class="result" id="result59"></div>
+		</div>
+		<div>
+			<label for="pt">Pas terrible</label>
+			<input id="input60" name="pt" type="number"/>
+			<div class="result" id="result60"></div>
+		</div>
+		<div>
+			<label for="si">Sans intérêt</label>
+			<input id="input61" name="si" type="number"/>
+			<div class="result" id="result61"></div>
+		</div>
+	</div>
+	<div id="footer"><input id="btncalcul" type="button" onclick="doMaths()" value="Calculer !"/>
 	<script>
-  
+		function doMaths(){
+			var nb=document.getElementById("nb").value;
+			if(nb!="" && nb!=null){
+				for(var i=1;i<62;i++){
+					var val = ((document.getElementById("input"+i).value)*100/nb).toFixed(1)+"%";
+					document.getElementById("result"+i).innerHTML=val;
+				}
+			}
+		}
 	</script>
 </body>
 </html>
